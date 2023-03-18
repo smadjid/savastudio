@@ -1,0 +1,10 @@
+.grid-divider > [class*="col-"]:nth-child(n + 2):after {
+    content: "";
+    background-color: #0dcaf05e;
+    position: absolute;
+    bottom: 10%;
+  
+      width: 1px;
+      height: 70%;
+   
+  }

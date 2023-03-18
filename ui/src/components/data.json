@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Aaren",
+      "username": "aaren-50",
+     "avatar":  "https://bootdey.com/img/Content/avatar/avatar1.png",
+      "date": "March 28, 2022",
+      "score": 2,
+      "location": "Saturn"
+    },
+    {
+      "name": "Samy",
+      "username": "samy-3",
+     "avatar":  "https://bootdey.com/img/Content/avatar/avatar1.png",
+      "date": "February 04, 2022",
+      "score": 0,
+      "location": "Earth"
+    },
+    {
+      "name": "Alisha",
+      "username": "alisha-18",
+     "avatar":  "https://bootdey.com/img/Content/avatar/avatar1.png",
+      "date": "February 23, 2022",
+      "score": 1,
+      "location": "Jupyter"
+    }
+]
+  

@@ -1,0 +1,54 @@
+version: "3"
+services:
+  
+  studio:
+   build:
+      context: ./ui
+      dockerfile: Dockerfile.dev
+   ports:
+    -  3000:3000
+   container_name: studio
+   restart: always
+   networks:
+    -  net
+   volumes:
+    -  ./ui/src:/usr/app/src
+    -  ./ui/public:/usr/app/public
+   depends_on:
+    - server
+   stdin_open: true
+   tty: true
+
+  server:
+   build:
+      context: ./api
+      dockerfile: Dockerfile.dev
+   ports:
+     - 3080:3080
+   container_name: server
+   restart: always
+   networks:
+     - net
+   volumes:
+    - ./api/src:/usr/app/src
+   depends_on:
+    - db
+
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
+    container_name: db
+    restart: always
+    networks:
+      - net
+    volumes:
+      - mongo-data:/data/db
+
+networks:
+  net:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local

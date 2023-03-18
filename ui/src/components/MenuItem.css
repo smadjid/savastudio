@@ -1,0 +1,25 @@
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 3rem;  
+  background-color: #647687;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  margin: 0.5rem;
+  padding: 1rem;
+
+}
+
+.menu-item a {
+  transition: all 0.3s ease 0s;
+  color: white;
+
+}
+
+.menu-item a:hover {
+  color: #0088a9;
+}

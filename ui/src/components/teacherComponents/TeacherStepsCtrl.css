@@ -1,0 +1,68 @@
+
+.table tbody tr > td.active {
+    background-color: rgb(43, 43, 175) !important;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+  }
+  table tbody tr > td.suspended {
+    background-color:#7373ea !important;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  .table tbody tr > td.success {
+    background-color: #2ECC71 !important;
+  }
+  .table tbody tr > td.issue {
+    background-color: #f36a6a !important;
+  }
+  
+  .table tbody tr > td.warning {
+    background-color: #ecca1c !important;
+  }
+  
+  .table tbody tr > td.info {
+    background-color: #d9edf7 !important;
+  }
+  .table tbody tr > td.inactive {
+    background-color: #D6D3D1 !important;
+  }
+  
+  .table-hover tbody tr:hover > td.success {
+    background-color: #d0e9c6 !important;
+  }
+  
+  .table-hover tbody tr:hover > td.issue {
+    background-color: #ebcccc !important;
+  }
+  
+  .table-hover tbody tr:hover > td.warning {
+    background-color: #faf2cc !important;
+  }
+  
+  .table-hover tbody tr:hover > td.info {
+    background-color: #c4e3f3 !important;
+  }
+
+ 
+  .steps-control-table td  {
+    text-align: center;
+  }
+  .step{
+    border-width:1px;
+ border-style:solid; 
+ border-color:white;
+ 
+  }
+  .step_tmp{
+    background-color: #c5d3f1!important
+
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #075985 !important;
+    background-color: #DBEAFE !important ;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}

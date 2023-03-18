@@ -1,0 +1,44 @@
+/* .table tbody tr > td.current {
+    background-color: rgb(43, 43, 175) !important;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .table tbody tr > td.success {
+    background-color: #5bf71d !important;
+  }
+  .table tbody tr > td.error {
+    background-color: #f36a6a !important;
+  }
+  
+  .table tbody tr > td.warning {
+    background-color: #ecca1c !important;
+  }
+  
+  .table tbody tr > td.info {
+    background-color: #d9edf7 !important;
+  }
+  .table tbody tr > td.inactive {
+    background-color: rgb(170, 165, 165) !important;
+  }
+  
+  .table-hover tbody tr:hover > td.success {
+    background-color: #d0e9c6 !important;
+  }
+  
+  .table-hover tbody tr:hover > td.error {
+    background-color: #ebcccc !important;
+  }
+  
+  .table-hover tbody tr:hover > td.warning {
+    background-color: #faf2cc !important;
+  }
+  
+  .table-hover tbody tr:hover > td.info {
+    background-color: #c4e3f3 !important;
+  }
+
+
+  .steps-control-table td  {
+    text-align: center;
+  } */
